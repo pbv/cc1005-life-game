@@ -1,0 +1,12 @@
+cabal-version:      2.4
+name:               life-game
+version:            0.1.0.0
+author:             Pedro Vasconcelos
+maintainer:         pbv@dcc.fc.up.pt
+extra-source-files: CHANGELOG.md
+
+executable life-game
+    main-is:          Main.hs
+    build-depends:    base, random, unix
+    hs-source-dirs:   app
+    default-language: Haskell2010
